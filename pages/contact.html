@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,400;0,6..12,700;0,6..12,900;1,6..12,200&display=swap"
+        rel="stylesheet">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- Bootstrap Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="../assets/logo/logo.png" alt="Bamboo Logo" width="146"
+                    height="54"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./reservations.html">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact & Locations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Banner-->
+    <div class="container-fluid contactBanner">
+        <div class="row">
+            <div class="col-12">
+                <img src="../assets/images/1264512407.jpg" alt="Sushi boat display">
+            </div>
+        </div>
+    </div>
+
+    <!--Main-->
+    <main class="container-fluid">
+
+        <section>
+            <h2>Contact</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero nobis blanditiis et architecto.
+                Suscipit, cupiditate.</p>
+
+            <form action="">
+
+                <div>
+                    <input id="name" type="name" placeholder="Name">
+                </div>
+
+                <div>
+                    <input id="email" type="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <input id="subject" type="text" placeholder="Subject">
+                </div>
+
+                <div>
+                    <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit" class="button">
+                </div>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Location</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.51063273006!2d-84.09238632422175!3d9.974611173469544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e4da91bcd843%3A0x2cc6d9970a4ddb79!2sMcDonald&#39;s!5e0!3m2!1sen!2scr!4v1693388777427!5m2!1sen!2scr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div>
+                <p>13th ST 2nd AVE</p>
+                <p>11-11 Monday - Saturday, 12-6 Sunday</p>
+                <p>1435 2nd Ave New York, NY 10028</p>
+                <a href="mailto: abc@example.com">restaurant@bamboo.com</a>
+            </div>
+
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid socialMedia">
+
+            <div class="row">
+                <h3>Follow us</h3>
+            </div>
+
+            <div class="container iconContainer">
+                <div class="col"><img src="../assets/logo/instagram.png" alt="Instagram icon" class="socialIcon"></div>
+                <div class="col"><img src="../assets/logo/tiktok.png" alt="TikTok icon" class="socialIcon"></div>
+                <div class="col"><img src="../assets/logo/twitter.png" alt="TwitterIcon" class="socialIcon"></div>
+            </div>
+
+            <div class="row copyright">
+                <p>New York, New York</p>
+                <p>© 2023 Bamboo Restaurant. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--Bootstrap link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
