@@ -16,7 +16,7 @@ body {
 
 a {
     text-decoration: none;
-    color:rgb(255, 145, 0)
+    color: rgb(255, 145, 0)
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 
 h3 {
     font-weight: bold;
-    font-size:large;
+    font-size: large;
 }
 
 .icon {
@@ -55,7 +55,7 @@ h3 {
     height: 300px;
     background-image: url(../assets/images/GettyImages-523750134.jpeg);
     background-size: cover;
-    box-shadow:inset 0 0 0 1000px rgb(0, 0, 0,.5);
+    box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, .5);
     padding: 40px;
     margin: 0 0 1% 0;
     color: white;
@@ -74,7 +74,7 @@ h3 {
 }
 
 .galleryContainer {
-padding: 0 5rem;
+    padding: 0 5rem;
 }
 
 .photoGal {
@@ -84,10 +84,10 @@ padding: 0 5rem;
 }
 
 .reservationForm {
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   height: 60vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
 }
 
 .form-floating {
@@ -101,6 +101,20 @@ padding: 0 5rem;
 .banner {
     height: 300px;
     background-image: url(../assets/images/167286317.jpg);
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.bannerReservation {
+    height: 300px;
+    background-image: url(../assets/images/GettyImages-823620170.jpeg);
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.bannerMenu {
+    height: 300px;
+    background-image: url(../assets/images/GettyImages-136264877.jpeg);
     background-size: cover;
     margin-bottom: 2rem;
 }
@@ -125,11 +139,23 @@ padding: 0 5rem;
 .contact-form {
     height: 40vh;
 }
+
 .contactInfo {
     margin-top: 40px;
 }
+
 .locationTitle {
     margin-bottom: 30px;
+}
+
+/*Menu Page
+:root {
+    --bs-primary-rgb: 13,110,253   
+}
+*/
+
+.list-group-item {
+    border: none;
 }
 
 /*Footer*/
@@ -138,13 +164,14 @@ padding: 0 5rem;
     text-align: center;
     padding: 2rem 5rem;
     margin-top: 2rem;
-    background-color: rgb(244, 244, 244) ;
+    background-color: rgb(244, 244, 244);
 }
 
 .iconContainer {
     display: flex;
-    
+
 }
+
 .socialIcon {
     width: 50px;
     height: 50px;
@@ -154,4 +181,3 @@ padding: 0 5rem;
     padding-top: 2rem;
     color: rgb(180, 180, 180);
 }
-
