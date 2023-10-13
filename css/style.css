@@ -98,25 +98,26 @@ h3 {
     text-align: center;
 }
 
-.banner {
+.bannerGeneral {
     height: 300px;
-    background-image: url(../assets/images/167286317.jpg);
     background-size: cover;
     margin-bottom: 2rem;
+}
+
+.bannerContact {
+    background-image: url(../assets/images/167286317.jpg);
 }
 
 .bannerReservation {
-    height: 300px;
     background-image: url(../assets/images/GettyImages-823620170.jpeg);
-    background-size: cover;
-    margin-bottom: 2rem;
 }
 
 .bannerMenu {
-    height: 300px;
     background-image: url(../assets/images/GettyImages-136264877.jpeg);
-    background-size: cover;
-    margin-bottom: 2rem;
+}
+
+.bannerAbout {
+    background-image: url(../assets/images/GettyImages-1127291339.jpeg);
 }
 
 /*Iframe Map > Contact*/
@@ -156,6 +157,30 @@ h3 {
 
 .list-group-item {
     border: none;
+}
+
+/*About Page*/
+
+.aboutPhoto {
+    background-size: cover;
+    height: 400px;
+    align-content: center;
+}
+
+.photo1 {
+    background-image: url(../assets/images/84303272.jpg);
+}
+
+.photo2 {
+    background-image: url(../assets/images/181894301.jpg) ;
+}
+
+.photo3 {
+    background-image: url(../assets/images/910585132.jpg);
+}
+
+.aboutContent {
+    text-align: center;
 }
 
 /*Footer*/
