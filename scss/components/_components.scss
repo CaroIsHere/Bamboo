@@ -1,0 +1,50 @@
+/*Global styles*/
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(24, 24, 24);
+}
+
+a {
+    text-decoration: none;
+    color: $primaryColor;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: large;
+}
+
+.subtitles {
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    transition: background-color 1s, color;
+
+    &:hover {
+        background-color: $hoverColor;
+    }
+}
+
+.btn {
+    background-color: $primaryColor;
+    color: $colorTextElements;
+    outline: none;
+    border: none;
+    margin: 1rem;
+
+    &:hover {
+        background-color: $hoverColor;
+    }
+}

@@ -1,0 +1,161 @@
+/*Index Page*/
+
+.indexSection1 {
+    height: 300px;
+    background-image: url(../assets/images/GettyImages-523750134.jpeg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgb(0, 0, 0, .5);
+    padding: 40px;
+    margin: 0 0 1% 0;
+    color: $colorTextElements;
+    text-align: center;
+    align-content: center;
+}
+
+.indexCard1 {
+    margin: 20px 30px;
+    padding: 05rem;
+}
+
+.indexSection2 {
+    text-align: center;
+    margin: 0.5% 0 0 0;
+}
+
+.galleryContainer {
+    padding: 0 5rem;
+}
+
+.imgContainer {
+
+    .photoGal {
+        display: block;
+        width: 100%;
+        margin: 0.7rem;
+    }
+}
+
+/*Reservation Page*/
+
+.reservationForm {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+
+    .form-floating {
+        margin: 1rem;
+    }
+}
+
+.bannerGeneral {
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+/*Pages>banners*/
+
+.bannerContact {
+    background-image: url(../assets/images/167286317.jpg);
+}
+
+.bannerReservation {
+    background-image: url(../assets/images/GettyImages-823620170.jpeg);
+}
+
+.bannerMenu {
+    background-image: url(../assets/images/GettyImages-136264877.jpeg);
+}
+
+.bannerAbout {
+    background-image: url(../assets/images/GettyImages-1127291339.jpeg);
+}
+
+/*Contact Page*/
+
+.locationTitle {
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    height: 40vh;
+}
+
+.responsive-iframe {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.responsive-iframe iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contactInfo {
+    margin-top: 40px;
+}
+
+/*Menu Page*/
+
+/*Menu Price badge, couldn't change the color
+:root {
+    --bs-primary-rgb: 13,110,253   
+}
+*/
+
+.list-group-item {
+    border: none;
+}
+
+/*About Page*/
+
+.aboutPhoto {
+    background-size: cover;
+    height: 400px;
+    align-content: center;
+}
+
+.photo1 {
+    background-image: url(../assets/images/84303272.jpg);
+}
+
+.photo2 {
+    background-image: url(../assets/images/181894301.jpg);
+}
+
+.photo3 {
+    background-image: url(../assets/images/910585132.jpg);
+}
+
+.aboutContent {
+    text-align: center;
+}
+
+/*Footer*/
+
+.socialMedia {
+    text-align: center;
+    padding: 2rem 5rem;
+    margin-top: 2rem;
+    background-color: rgb(244, 244, 244);
+}
+
+.iconContainer {
+    display: flex;
+
+    .socialIcon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.copyright {
+    padding-top: 2rem;
+    color: rgb(180, 180, 180);
+}
