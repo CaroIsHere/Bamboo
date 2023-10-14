@@ -37,6 +37,10 @@ h3 {
   padding: 10px;
   border-radius: 15px;
   margin-bottom: 20px;
+  transition: background-color 1s, color;
+}
+.icon:hover {
+  background-color: rgb(248, 160, 46);
 }
 
 .btn {

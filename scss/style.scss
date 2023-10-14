@@ -1,5 +1,6 @@
 $primaryColor: rgb(255, 145, 0);
 $colorTextElements: white;
+$hoverColor: rgb(248, 160, 46);
 
 /*CSS reset*/
 
@@ -42,6 +43,11 @@ h3 {
     padding: 10px;
     border-radius: 15px;
     margin-bottom: 20px;
+    transition: background-color 1s, color;
+
+    &:hover {
+        background-color: $hoverColor;
+    }
 }
 
 .btn {
@@ -52,7 +58,7 @@ h3 {
     margin: 1rem;
 
     &:hover {
-        background-color: rgb(248, 160, 46);
+        background-color: $hoverColor;
     }
 }
 
@@ -104,7 +110,6 @@ h3 {
     .form-floating {
         margin: 1rem;
     }
-
 }
 
 .bannerGeneral {
