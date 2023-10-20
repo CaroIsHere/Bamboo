@@ -160,24 +160,6 @@ h3 {
 }
 
 /*About Page*/
-.aboutPhoto {
-  background-size: cover;
-  height: 400px;
-  align-content: center;
-}
-
-.photo1 {
-  background-image: url(../assets/images/84303272.jpg);
-}
-
-.photo2 {
-  background-image: url(../assets/images/181894301.jpg);
-}
-
-.photo3 {
-  background-image: url(../assets/images/910585132.jpg);
-}
-
 .aboutContent {
   text-align: center;
 }
